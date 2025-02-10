@@ -47,7 +47,7 @@ parameters {
     mu_t_p[k] ~ normal(0,3);  
     mu_lambda_g[k] ~ normal(1,3); 
     mu_lambda_d[k] ~ normal(1,3);  
-    mu_incub[k] ~ normal(1,3);
+    mu_incub[k] ~ normal(0,3);
     
 
     sigma_v_p[k] ~ cauchy(0, 2); // weakly informative prior
