@@ -13,3 +13,5 @@ code for data analysis and figure repdocution for the manuscript "Relating in vi
 [prediction check and posterior distribution]: plot posterior distributions and prediction check for all age groups
 
 [Relating qprc and viral titer]: find the best model to relate qprc and viral titer
+
+[qpcr_qculture_data.zip]: qpcr and qculter data. Note that store the data to a local pathway correspoding to the path in "Relating qprc and viral titer"
