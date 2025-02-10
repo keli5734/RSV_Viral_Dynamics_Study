@@ -4,5 +4,7 @@ code for data analysis and figure repdocution for the manuscript "Relating in vi
 
     
 [Data.zip]: Viral load kinetic data for the analysis 
+
 [fit_stand_model]: R script to fit Stan model
+
 [Rstan model]: Stan model
