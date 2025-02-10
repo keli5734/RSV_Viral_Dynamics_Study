@@ -1,5 +1,5 @@
-presym_transmission_ped <- readRDS("presym_transmission_children_shedding_period_cohen.rds")
-presym_transmission_eld <- readRDS("presym_transmission_elderly_shedding_period_cohen.rds")
+presym_transmission_ped <- readRDS("presym_transmission_children.rds") # computed values can be found from "presym_prop_predicted_values.zip"
+presym_transmission_eld <- readRDS("presym_transmission_elderly.rds")
 presym_transmission_adu <- readRDS("presym_transmission_adult.rds")
 
 pre_sym_percentage <- data.frame(values = 100*c(presym_transmission_ped, presym_transmission_adu, presym_transmission_eld),
