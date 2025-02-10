@@ -9,10 +9,10 @@ estimated_pars <-  c("mu_v_p","mu_t_p", "mu_lambda_g", "mu_lambda_d","mu_incub",
                      "sigma_v_p", "sigma_t_p", "sigma_lambda_g", "sigma_lambda_d", "sigma_incub",
                      "v_p", "t_p", "lambda_g", "lambda_d", "incub", "sigma")
 
-#fit_rsv_model <- readRDS("fit_rsv_results_incubation_weakly_prior.rds")
-fit_rsv_model <- readRDS("fit_rsv_results_incubation_53_patients_5chains.rds")
+ 
+fit_rsv_model <- readRDS("fit_rsv_results_incubation_53_patients_5chains.rds") # model output from Stan
 
-#pairs(fit_rsv_model, pars = c("mu_v_p[3]", "mu_t_p[3]", "mu_lambda_g[3]", "mu_lambda_d[3]"))
+ 
 
 
 # extract posterior samples for selected parameters
